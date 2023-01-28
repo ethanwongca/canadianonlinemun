@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 27 14:41:16 2023
 
-@author: ethanwong
-"""
 import discord 
+import nest_asyncio
+nest_asyncio.apply()
 
 TOKEN = 'MTA2MzYwMzIzMzkxMTc0MjUyNQ.GGDN5u.KwZeJfZuwYhRETGFO-e5ohtUhcxhEbo9kgSVnA'
 
