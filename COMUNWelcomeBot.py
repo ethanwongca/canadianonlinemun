@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import discord 
+# Allows async to work
 import nest_asyncio
 nest_asyncio.apply()
 
