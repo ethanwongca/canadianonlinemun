@@ -7,9 +7,12 @@ nest_asyncio.apply()
 
 TOKEN = "your_token_here"
 
-client = commands.Bot(command_prefix = "/") # Sets the prefix for bots command 
+intents = discord.Intents.default()
+intents.message_content = True
+bot = commands.Bot(command_prefix = "/") # Sets the prefix for bots command 
+client = discord.Client(intents = intents)
 
-@client.command()
+@bot.command()
 @commands.has_role('Admin') #Admins can use this
 async def start_poll(ctx, question): #Abstain, For, Against
     options = ["Abstain", "Yes", "No"] 
@@ -20,7 +23,7 @@ async def start_poll(ctx, question): #Abstain, For, Against
     for i in range(3):
         await message.add_reaction(chr(0x31 + i))
 
-@client.command()
+@bot.command()
 @commands.has_role('Admin')
 async def end_poll(ctx):
     global message
