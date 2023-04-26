@@ -3,7 +3,7 @@ from discord.ext import commands
 import nest_asyncio
 nest_asyncio.apply() 
 
-TOKEN = "MTA2ODk3NTI3MTkzMzM3ODY2MQ.GkDC-B.Fm6M42DuyPNHKnsG0MlMA_vn7ZzjzcGDndMKw0"
+TOKEN = "token"
 
 intents = discord.Intents.default()
 intents.guild_messages = True
