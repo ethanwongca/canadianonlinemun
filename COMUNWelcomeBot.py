@@ -6,7 +6,7 @@ import discord
 import nest_asyncio
 nest_asyncio.apply()
 
-TOKEN = 'MTA2MzYwMzIzMzkxMTc0MjUyNQ.GGDN5u.KwZeJfZuwYhRETGFO-e5ohtUhcxhEbo9kgSVnA'
+TOKEN = 'your_token'
 
 intents = discord.Intents.default()
 intents.message_content = True
