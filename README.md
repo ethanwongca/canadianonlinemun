@@ -15,5 +15,6 @@ For the website - Javascript, CSS, HTML, React.JS, Bootstrap
 
 <h2> Discord Bots </h2>
 Welcome bot- This bot greets delegates when they enter the COMUN server. 
+Poll bot- Creates a poll for voting between three options, abstaining, for, and against
 
 <h2> Website </h2>
