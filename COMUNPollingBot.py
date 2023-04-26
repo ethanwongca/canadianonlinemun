@@ -1,16 +1,15 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 import discord
 from discord.ext import commands 
 import nest_asyncio
 nest_asyncio.apply() 
 
-TOKEN = "your_token_here"
+TOKEN = "MTA2ODk3NTI3MTkzMzM3ODY2MQ.GkDC-B.Fm6M42DuyPNHKnsG0MlMA_vn7ZzjzcGDndMKw0"
 
 intents = discord.Intents.default()
+intents.guild_messages = True
+intents.reactions = True
 intents.message_content = True
 bot = commands.Bot(command_prefix = "/", intents = intents) # Sets the prefix for bots command 
-client = discord.Client(intents = intents)
 
 @bot.command()
 @commands.has_role('Admin') #Admins can use this
@@ -45,4 +44,4 @@ async def end_poll(ctx):
     await ctx.send(embed = summary)
     message = None 
 
-client.run(TOKEN)
+bot.run(TOKEN)
