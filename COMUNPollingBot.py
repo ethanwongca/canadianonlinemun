@@ -3,24 +3,26 @@ from discord.ext import commands
 import nest_asyncio
 nest_asyncio.apply() 
 
-TOKEN = "token"
+TOKEN = "your_token"
 
 intents = discord.Intents.default()
 intents.guild_messages = True
 intents.reactions = True
 intents.message_content = True
-bot = commands.Bot(command_prefix = "/", intents = intents) # Sets the prefix for bots command 
+bot = commands.Bot(command_prefix = "/", intents = intents)
+
+message = None
 
 @bot.command()
-@commands.has_role('Admin') #Admins can use this
-async def start_poll(ctx, question): #Abstain, For, Against
+@commands.has_role('Admin')
+async def start_poll(ctx, question):
     options = ["Abstain", "Yes", "No"] 
-    # Allows for the message to go through         
+    # Note the emojis are custom, (so the emojis will be unknown)so to use the bot change the code below. 
     embed = discord.Embed(title=question, description='\n'.join([f"{i+1}. {option}" for i, option in enumerate(options)]))
-    #Waiting for the message to send 
-    message = await ctx.send(embed = embed)
+    message = await ctx.send(embed=embed)
     for i in range(3):
         await message.add_reaction(chr(0x31 + i))
+    await bot.process_commands(message)
 
 @bot.command()
 @commands.has_role('Admin')
@@ -40,8 +42,8 @@ async def end_poll(ctx):
         index = ord(str(reaction.emoji)) - 0x31
         results[index] = reaction.count - 1
         
-    summary = discord.Embed(title = "Voting Results", description = f"Results for {message.embeds[0].title}:\n\nAbstain: {results[0]}\nYes: {results[1]}\nNo: {results[2]}")
-    await ctx.send(embed = summary)
+    summary = discord.Embed(title="Voting Results", description=f"Results for {message.embeds[0].title}:\n\nAbstain: {results[0]}\nYes: {results[1]}\nNo: {results[2]}")
+    await ctx.send(embed=summary)
     message = None 
 
 bot.run(TOKEN)
