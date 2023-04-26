@@ -9,7 +9,7 @@ TOKEN = "your_token_here"
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix = "/") # Sets the prefix for bots command 
+bot = commands.Bot(command_prefix = "/", intents = intents) # Sets the prefix for bots command 
 client = discord.Client(intents = intents)
 
 @bot.command()
