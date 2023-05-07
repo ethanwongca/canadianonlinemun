@@ -14,6 +14,8 @@ For the bots - Python 3, OS library, discord library, dotenv library, asyncio, n
 For the website - Javascript, CSS, HTML, React.JS, Bootstrap
 
 <h2> Discord Bots </h2>
+Bot code and screenshots of bots working are in the bots folder. 
+
 Welcome bot- This bot greets delegates when they enter the COMUN server. 
 
 Poll bot- Creates a poll for voting between three options, abstaining, for, and against
