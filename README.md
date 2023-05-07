@@ -23,7 +23,7 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 <strong> Poll Bot </strong>- Creates a poll for voting between three options, abstaining, for, and against and counts up the poll. 
 <img width="406" alt="Poll Bot when given command" src="https://user-images.githubusercontent.com/87055387/236654479-a42ebbc4-5390-4898-9892-2de130e4e388.png">
 
-<strong> Roll Call Bot </strong>- Asks delegates their roll call status, present or present and voting, then stores the delegate's choice.
+<strong> Roll Call Bot </strong>- Asks delegates their status, present or present and voting, then stores the delegate's choice.
 <img width="599" alt="Screen Shot 2023-05-06 at 7 22 27 PM" src="https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png">
 
 <strong> TImer Bot </strong> Creates a timer that counts down with the /time 60 command. Then countsdown in real time. 
