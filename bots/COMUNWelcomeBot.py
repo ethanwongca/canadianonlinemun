@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import discord 
 # Allows async to work
 import nest_asyncio
@@ -8,10 +5,7 @@ nest_asyncio.apply()
 
 TOKEN = 'your_token'
 
-intents = discord.Intents.default()
-intents.message_content = True
-
-client = discord.Client(intents = intents)
+client = discord.Client(intents=discord.Intents.all())
 
 @client.event
 async def on_ready():
