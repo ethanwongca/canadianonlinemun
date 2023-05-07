@@ -26,7 +26,7 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 <strong> Roll Call Bot </strong>- Asks delegates their status, present or present and voting, then stores the delegate's choice.
 <img width="599" alt="Screen Shot 2023-05-06 at 7 22 27 PM" src="https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png">
 
-<strong> TImer Bot </strong> Creates a timer that counts down with the /time 60 command. Then countsdown in real time. 
+<strong> TImer Bot </strong>- Creates a timer that counts down with the /time 60 command. Then countsdown in real time. 
 <img width="339" alt="Screen Shot 2023-05-06 at 10 34 24 PM" src="https://user-images.githubusercontent.com/87055387/236659709-80cca300-af8e-4453-8de1-9072b8e9854a.png">
 
 <h2> Website </h2>
