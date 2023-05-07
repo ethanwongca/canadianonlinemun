@@ -3,7 +3,7 @@ from discord.ext import commands
 import nest_asyncio
 nest_asyncio.apply() 
 
-TOKEN = "MTEwNDU2ODgwOTU1NTIzNDkyOQ.GkGJhO.5SSGTfDKxxW7arLm6ckhd4nejAheiUVzlHRPZQ"
+TOKEN = "your_token"
 
 intents = discord.Intents.default()
 intents.members = True
