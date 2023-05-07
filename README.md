@@ -15,7 +15,7 @@ This Model United Nations has amassed over 300 delegates from 37 countries atten
 
 <h2> Discord Bots </h2>
 
-Bot code are in the <strong>bots folder</strong>. Examples of each bot are below/ 
+Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 
 <strong> Welcome bot </strong>- This bot greets delegates when they enter the COMUN server. 
 <img width="486" alt="COMUN Welcome Bot" src="https://user-images.githubusercontent.com/87055387/236654482-14f38c98-14b6-496a-925d-cd4b0cf6d69a.png">
