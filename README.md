@@ -29,4 +29,9 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 <strong> TImer Bot </strong>- Creates a timer that counts down with the /time 60 command. Then countsdown in real time. 
 <img width="339" alt="Screen Shot 2023-05-06 at 10 34 24 PM" src="https://user-images.githubusercontent.com/87055387/236659709-80cca300-af8e-4453-8de1-9072b8e9854a.png">
 
+<strong> Role Bot </strong>- After /strong command, then roles (committees delegates are in) will be administered via pressing emojis.
+<img width="747" alt="Screen Shot 2023-05-06 at 11 06 13 PM" src="https://user-images.githubusercontent.com/87055387/236660798-ec0a5467-956e-435f-b10b-bfba2af5a7a4.png">
+
+
+
 <h2> Website </h2>
