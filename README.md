@@ -9,7 +9,7 @@ This Model United Nations has amassed over 300 delegates from 37 countries atten
 <strong> Awards from UNHCR are placed in the awards folder. </strong>
 
 <h2> Languages </h2>
-<strong> For the bots </strong> - Python 3, OS library, discord library, dotenv library, asyncio, nest_asyncio, time and random library
+<strong> For the bots </strong> - Python 3, discord library, asyncio, nest_asyncio, and time library
 
 <strong> For the website </strong>- Javascript, CSS, HTML, React.JS, Bootstrap
 
