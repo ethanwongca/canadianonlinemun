@@ -15,10 +15,14 @@ For the website - Javascript, CSS, HTML, React.JS, Bootstrap
 
 <h2> Discord Bots </h2>
 
-Bot code and screenshots of bots working are in the <strong>bots folder</strong>. 
+Bot code are in the <strong>bots folder</strong>. Examples of each bot are below/ 
 
 Welcome bot- This bot greets delegates when they enter the COMUN server. 
+<img width="486" alt="COMUN Welcome Bot" src="https://user-images.githubusercontent.com/87055387/236654482-14f38c98-14b6-496a-925d-cd4b0cf6d69a.png">
 
 Poll bot- Creates a poll for voting between three options, abstaining, for, and against
+<img width="406" alt="Poll Bot when given command" src="https://user-images.githubusercontent.com/87055387/236654479-a42ebbc4-5390-4898-9892-2de130e4e388.png">
 
+Rollcall Bot - Asks delegates their roll call status, present or present and voting
+<img width="599" alt="Screen Shot 2023-05-06 at 7 22 27 PM" src="https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png">
 <h2> Website </h2>
