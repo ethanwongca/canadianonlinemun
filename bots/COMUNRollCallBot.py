@@ -17,11 +17,11 @@ bot = commands.Bot(command_prefix='/', intents=intents)
 @bot.command(name='rollcall')
 async def rollcall(ctx, *, status: str = None):
     if not status and not ctx.author.guild_permissions.administrator:
-        await ctx.send("You must be an administrator to start a roll call without a status.")
+        await ctx.send("You must be an admin to start a roll call.")
         return
     
     if status and status.lower() not in ('present', 'present and voting'):
-        await ctx.send("Invalid status. Please use 'present' or 'present and voting'.")
+        await ctx.send("Please use 'present' or 'present and voting'.")
         return
     
     if not status:
