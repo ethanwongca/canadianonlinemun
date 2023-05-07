@@ -16,12 +16,11 @@ message = None
 @bot.command()
 @commands.has_role('Admin')
 async def start_poll(ctx, question):
-    options = ["Abstain", "Yes", "No"] 
-    # Note the emojis are custom, (so the emojis will be unknown)so to use the bot change the code below. 
+    options = ["🤔 Abstain", "👍 Yes", "👎 No"] 
     embed = discord.Embed(title=question, description='\n'.join([f"{i+1}. {option}" for i, option in enumerate(options)]))
     message = await ctx.send(embed=embed)
     for i in range(3):
-        await message.add_reaction(chr(0x31 + i))
+        await message.add_reaction(options[i][0])
     await bot.process_commands(message)
 
 @bot.command()
@@ -36,10 +35,10 @@ async def end_poll(ctx):
     except discord.NotFound:
         await ctx.send("Poll message not found")
         return
-    options = ["Abstain", "Yes", "No"]
+    options = ["🤔 Abstain", "👍 Yes", "👎 No"]
     results = [0, 0, 0]
     for reaction in message.reactions:
-        index = ord(str(reaction.emoji)) - 0x31
+        index = options.index(str(reaction.emoji) + " " + options[index])
         results[index] = reaction.count - 1
         
     summary = discord.Embed(title="Voting Results", description=f"Results for {message.embeds[0].title}:\n\nAbstain: {results[0]}\nYes: {results[1]}\nNo: {results[2]}")
@@ -47,3 +46,4 @@ async def end_poll(ctx):
     message = None 
 
 bot.run(TOKEN)
+
