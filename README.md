@@ -5,6 +5,7 @@ High Commissioner for Refugees MUN Refugee Challenge and one of the first virtua
 This Model United Nations has amassed over 300 delegates from 37 countries attend. 
 
 <strong> Awards from UNHCR are placed in the awards folder. </strong>
+
 <strong> Letters for COMUN are placed in the COMUN letters folder. </strong>
 
 <h2> Languages </h2>
