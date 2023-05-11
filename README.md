@@ -39,5 +39,6 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 
 For the website I kept it quite simple, I used basic website elements from javascript, html, and css. The final result is below. 
 
-![Screen Shot 2023-05-11 at 3 06 23 PM](https://github.com/ethanwongca/canadianonlinemun/assets/87055387/e35a2fca-947f-4c56-a9ba-50f566e93653)
+![Screen Shot 2023-05-11 at 3 07 44 PM](https://github.com/ethanwongca/canadianonlinemun/assets/87055387/6162b976-fa2a-4ef1-9a33-539c6d3b0ec9)
+
 
