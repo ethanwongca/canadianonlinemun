@@ -8,7 +8,7 @@ This Model United Nations has amassed over 300 delegates from 37 countries atten
 
 <strong> Letters for COMUN are placed in the COMUN letters folder. </strong>
 
-<h2> Languages </h2>
+<h2> Languages and Libraries</h2>
 <strong> For the bots </strong> - Python 3, discord library, asyncio, nest_asyncio, and time library
 
 <strong> For the website </strong>- Javascript, CSS, HTML
