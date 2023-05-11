@@ -11,7 +11,7 @@ This Model United Nations has amassed over 300 delegates from 37 countries atten
 <h2> Languages </h2>
 <strong> For the bots </strong> - Python 3, discord library, asyncio, nest_asyncio, and time library
 
-<strong> For the website </strong>- Javascript, CSS, HTML, React.JS, Bootstrap
+<strong> For the website </strong>- Javascript, CSS, HTML
 
 <h2> Discord Bots </h2>
 
@@ -36,3 +36,8 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 
 
 <h2> Website </h2>
+
+For the website I kept it quite simple, I used basic website elements from javascript, html, and css. The final result is below. 
+
+![Screen Shot 2023-05-11 at 3 06 23 PM](https://github.com/ethanwongca/canadianonlinemun/assets/87055387/e35a2fca-947f-4c56-a9ba-50f566e93653)
+
