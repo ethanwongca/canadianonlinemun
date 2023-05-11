@@ -41,5 +41,7 @@ For the website I kept it quite simple, I used basic website elements from javas
 
 The website's code is in the <strong> web folder </strong>
 
+The github page is this link as well https://ethanwongca.github.io/canadianonlinemun/
+
 <img width="1440" alt="Screen Shot 2023-05-11 at 3 46 13 PM" src="https://github.com/ethanwongca/canadianonlinemun/assets/87055387/68ec953f-0ee1-4f28-9e56-32ac2a12c6ce">
 
