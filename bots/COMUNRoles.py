@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands 
 import nest_asyncio
-nest_asyncio.apply() 
+nest_asyncio.apply() #Using spyder IDE hence needed to nest asyncio
 
 TOKEN = "your_token"
 
