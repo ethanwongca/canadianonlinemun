@@ -1,8 +1,8 @@
 # Canadian Online Model United Nations 
 
-This is the technical portion for Canadian Online Model United Nations a 2 x Special Mention for the United Nations
+This is the technical portion for Canadian Online Model United Nations, a 2 x Special Mention for the United Nations
 High Commissioner for Refugees MUN Refugee Challenge and one of the first virtual and free Model United Nations. 
-This Model United Nations has amassed over 300 delegates from 37 countries attend. 
+This Model United Nations has amassed over 300 delegates from 37 countries to attend. 
 
 <strong> Awards from UNHCR are placed in the awards folder. </strong>
 
@@ -26,7 +26,7 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 <strong> Roll Call Bot </strong>- Asks delegates their status, present or present and voting, then stores the delegate's choice.
 <img width="599" alt="Screen Shot 2023-05-06 at 7 22 27 PM" src="https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png">
 
-<strong> TImer Bot </strong>- Creates a timer that counts down with the /time 60 command. Then countsdown in real time. 
+<strong> TImer Bot </strong>- Creates a timer that counts down with the /time 60 command. Then countdown in real-time. 
 <img width="339" alt="Screen Shot 2023-05-06 at 10 34 24 PM" src="https://user-images.githubusercontent.com/87055387/236659709-80cca300-af8e-4453-8de1-9072b8e9854a.png">
 
 <strong> Role Bot </strong>- After /strong command, then roles (committees delegates are in) will be administered via emojis.
@@ -37,11 +37,11 @@ Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
 
 <h2> Website </h2>
 
-For the website I kept it quite simple, I used basic website elements from javascript, html, and css. The final result is below. Some fun features, is the button transition into a white button, and each social media button is anchored to COMUN's socials. 
+For the website, I kept it quite simple; I used essential website elements from javascript, HTML, and CSS. The final result is below. One fun feature is the button transition into a white button, and each social media button is anchored to COMUN's socials. 
 
 The website's code is in the <strong> web folder </strong>
 
-The github page is this link as well https://ethanwongca.github.io/canadianonlinemun/
+The GitHub page is this link as well https://ethanwongca.github.io/canadianonlinemun/
 
 <img width="1440" alt="Screen Shot 2023-05-11 at 3 46 13 PM" src="https://github.com/ethanwongca/canadianonlinemun/assets/87055387/68ec953f-0ee1-4f28-9e56-32ac2a12c6ce">
 
