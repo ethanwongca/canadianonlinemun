@@ -1,4 +1,4 @@
-# Canadian Online Model United Nations 
+![COMUN LinkedIN](https://github.com/user-attachments/assets/2b8feb6f-9209-4d28-beac-db9e26513156)
 
 This is the technical portion for Canadian Online Model United Nations, a 2 x Special Mention for the United Nations
 High Commissioner for Refugees MUN Refugee Challenge and one of the first virtual and free Model United Nations. 
