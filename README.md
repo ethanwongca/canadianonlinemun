@@ -76,7 +76,7 @@ Assigns roles (committees delegates are in) via emojis after a specific command.
 
 ## 🌐 Website
 
-The website was designed with simplicity in mind using **JavaScript**, **HTML**, and **CSS**. It features interactive elements like button transitions and anchored social media buttons. The website's source code is located in the [**docs folder**](./docs).
+The website was designed with simplicity in mind using **JavaScript**, **HTML**, and **CSS**. It features interactive elements like button transitions and anchored social media buttons. The website's source code is located in the [**web folder**](./web).
 
 ![COMUN Website Screenshot](https://github.com/user-attachments/assets/768296e1-a431-4ba7-95b8-bad411e994db)
 
