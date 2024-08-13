@@ -1,47 +1,94 @@
-![COMUN LinkedIN](https://github.com/user-attachments/assets/2b8feb6f-9209-4d28-beac-db9e26513156)
+# Canadian Online Model United Nations (COMUN)
 
-This is the technical portion for Canadian Online Model United Nations, a 2 x Special Mention for the United Nations
-High Commissioner for Refugees MUN Refugee Challenge and one of the first virtual and free Model United Nations. 
-This Model United Nations has amassed over 300 delegates from 37 countries to attend. 
+![COMUN LinkedIn](https://github.com/user-attachments/assets/2b8feb6f-9209-4d28-beac-db9e26513156)
 
-<strong> Awards from UNHCR are placed in the awards folder. </strong>
+Welcome to the technical repository for the **Canadian Online Model United Nations** (COMUN). COMUN is one of the first virtual and free Model United Nations, recognized with **2 x Special Mentions** from the **United Nations High Commissioner for Refugees (UNHCR)** MUN Refugee Challenge. We have successfully hosted over **300 delegates** from **37 countries** worldwide.
 
-<strong> Letters for COMUN are placed in the COMUN letters folder. </strong>
+📂 **Awards**: UNHCR awards can be found in the [**awards folder**](./awards).  
+📂 **Letters**: COMUN-related letters are available in the [**COMUN letters folder**](./COMUN-letters).
 
-<h2> Languages and Libraries</h2>
-<strong> For the bots </strong> - Python 3, discord library, asyncio, nest_asyncio, and time library
+---
 
-<strong> For the website </strong>- Javascript, CSS, HTML
+## 🌐 Connect with Us
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/canadianonlinemun)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/canadianonlinemun/?hl=en)
 
-<h2> Discord Bots </h2>
+---
 
-Bot code are in the <strong>bots folder</strong>. Examples of each bot are below
+## 📋 Table of Contents
 
-<strong> Welcome Bot </strong>- This bot greets delegates when they enter the COMUN server. 
-<img width="486" alt="COMUN Welcome Bot" src="https://user-images.githubusercontent.com/87055387/236654482-14f38c98-14b6-496a-925d-cd4b0cf6d69a.png">
+- [Languages and Libraries](#-languages-and-libraries)
+- [Discord Bots](#-discord-bots)
+- [Website](#-website)
+- [Usage](#-usage)
 
-<strong> Poll Bot </strong>- Creates a poll for voting between three options, abstaining, for, and against and counts up the poll. 
-<img width="406" alt="Poll Bot when given command" src="https://user-images.githubusercontent.com/87055387/236654479-a42ebbc4-5390-4898-9892-2de130e4e388.png">
+---
 
-<strong> Roll Call Bot </strong>- Asks delegates their status, present or present and voting, then stores the delegate's choice.
-<img width="599" alt="Screen Shot 2023-05-06 at 7 22 27 PM" src="https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png">
+## 🛠 Languages and Libraries
 
-<strong> TImer Bot </strong>- Creates a timer that counts down with the /time 60 command. Then countdown in real-time. 
-<img width="339" alt="Screen Shot 2023-05-06 at 10 34 24 PM" src="https://user-images.githubusercontent.com/87055387/236659709-80cca300-af8e-4453-8de1-9072b8e9854a.png">
+### **Bots:**
 
-<strong> Role Bot </strong>- After /strong command, then roles (committees delegates are in) will be administered via emojis.
-<img width="747" alt="Screen Shot 2023-05-06 at 11 06 13 PM" src="https://user-images.githubusercontent.com/87055387/236660798-ec0a5467-956e-435f-b10b-bfba2af5a7a4.png">
-<img width="256" alt="Screen Shot 2023-05-06 at 11 06 28 PM" src="https://user-images.githubusercontent.com/87055387/236660826-0876c060-7501-4141-9232-2d73a3dbb72f.png">
+- **[Python 3](https://www.python.org/doc/)**: The primary programming language used for developing the bots due to its simplicity and extensive libraries.
+- **[Discord.py (v1.7.3)](https://discordpy.readthedocs.io/en/stable/)**: A Python library used for interacting with the Discord API. It provides an easy way to create bots that can communicate with users on Discord servers.
+- **[Asyncio](https://docs.python.org/3/library/asyncio.html)**: Used for writing concurrent code with the async/await syntax. It is essential for handling multiple tasks, such as processing user commands and responding to them in real-time.
+- **[Nest_asyncio](https://github.com/erdewit/nest_asyncio)**: A small Python library that allows asyncio to be used in environments that have an already running asyncio event loop (like Jupyter notebooks).
+- **[Time](https://docs.python.org/3/library/time.html)**: A standard Python library for manipulating time-related tasks like setting timers, measuring execution time, and delaying actions.
 
+### **Website:**
 
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)**: Used for adding interactivity to the website, including button transitions and dynamic content updates.
+- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)**: Used for styling the website to create a visually appealing and responsive design.
+- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**: The backbone of the website, used for structuring the content and elements.
 
-<h2> Website </h2>
+---
 
-For the website, I kept it quite simple; I used essential website elements from javascript, HTML, and CSS. The final result is below. One fun feature is the button transition into a white button, and each social media button is anchored to COMUN's socials. 
+## 🤖 Discord Bots
 
-The website's code is in the <strong> web folder </strong>
+The bot code can be found in the [**bots folder**](./bots). Below are examples of each bot in action:
 
-The GitHub page is this link as well https://ethanwongca.github.io/canadianonlinemun/
+### **Welcome Bot**
+Greets delegates when they enter the COMUN server.
 
-<img width="1440" alt="Screen Shot 2023-05-11 at 3 46 13 PM" src="https://github.com/ethanwongca/canadianonlinemun/assets/87055387/68ec953f-0ee1-4f28-9e56-32ac2a12c6ce">
+![COMUN Welcome Bot](https://user-images.githubusercontent.com/87055387/236654482-14f38c98-14b6-496a-925d-cd4b0cf6d69a.png)
+
+### **Poll Bot**
+Creates a poll for voting between three options: abstain, for, and against, and counts up the poll results.
+
+![Poll Bot Command](https://user-images.githubusercontent.com/87055387/236654479-a42ebbc4-5390-4898-9892-2de130e4e388.png)
+
+### **Roll Call Bot**
+Asks delegates their status (present or present and voting) and stores the delegate's choice.
+
+![Roll Call Bot](https://user-images.githubusercontent.com/87055387/236654469-a2fcb6ca-d936-48cb-b302-2f82caa570e9.png)
+
+### **Timer Bot**
+Creates a countdown timer with the `/time 60` command.
+
+![Timer Bot](https://user-images.githubusercontent.com/87055387/236659709-80cca300-af8e-4453-8de1-9072b8e9854a.png)
+
+### **Role Bot**
+Assigns roles (committees delegates are in) via emojis after a specific command.
+
+![Role Bot Command](https://user-images.githubusercontent.com/87055387/236660798-ec0a5467-956e-435f-b10b-bfba2af5a7a4.png)
+![Role Bot Emojis](https://user-images.githubusercontent.com/87055387/236660826-0876c060-7501-4141-9232-2d73a3dbb72f.png)
+
+---
+
+## 🌐 Website
+
+The website was designed with simplicity in mind using **JavaScript**, **HTML**, and **CSS**. It features interactive elements like button transitions and anchored social media buttons. The website's source code is located in the [**docs folder**](./docs).
+
+### **GitHub Page**:  
+Check out the live version of the website [**here**](https://ethanwongca.github.io/canadianonlinemun/).
+
+![COMUN Website Screenshot](https://github.com/user-attachments/assets/768296e1-a431-4ba7-95b8-bad411e994db)
+
+---
+
+## 💻 Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ethanwongca/canadianonlinemun.git
+   cd canadianonlinemun
 
