@@ -5,7 +5,7 @@
 Welcome to the technical repository for the **Canadian Online Model United Nations** (COMUN). COMUN is one of the first virtual and free Model United Nations, recognized with **2 x Special Mentions** from the **United Nations High Commissioner for Refugees (UNHCR)** MUN Refugee Challenge. We have successfully hosted over **300 delegates** from **37 countries** worldwide.
 
 📂 **Awards**: UNHCR awards can be found in the [**awards folder**](./Awards).  
-📂 **Letters**: COMUN-related letters are available in the [**COMUN letters folder**](./COMUN-Letters).
+📂 **Letters**: COMUN-related letters are available in the COMUN letters folder.
 
 ---
 
